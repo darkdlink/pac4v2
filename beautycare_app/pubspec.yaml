@@ -1,0 +1,54 @@
+name: beautycare_app  # Nome do seu projeto
+
+description: "A new Flutter project."
+publish_to: 'none'  # Remover esta linha se não for publicar
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.3
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Supabase for database
+  supabase_flutter: ^2.8.1  # Certifique-se de que essa é a versão mais recente
+
+  # HTTP requests package (optional, but recommended for handling errors)
+  http: ^1.1.0
+
+  # Cupertino Icons for iOS style icons
+  cupertino_icons: ^1.0.8
+
+  # Image Picker for selecting images
+  image_picker: ^1.1.2  # Verifique sempre a versão mais recente
+
+  # PDF and printing libraries
+  pdf: ^3.6.0
+  printing: ^5.6.0
+
+  # Path provider for accessing filesystem
+  path_provider: ^2.0.11  # Certifique-se de que essa é a versão mais recente
+
+  # CSV handling package
+  csv: ^6.0.0
+
+  # Internationalization (intl)
+  intl: ^0.20.1  # Verifique se é a versão mais recente
+
+  # Shared Preferences
+  shared_preferences: ^2.0.0  # Adicione esta linha
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^5.0.0  # Adiciona a dependência do linting do Flutter
+
+flutter:
+  uses-material-design: true
+
+  # Configuração para assets (imagens)
+  assets:
+    - assets/imagens/
